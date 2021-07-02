@@ -6,7 +6,7 @@ public class homeworkLesson2 {
         boolean summa = sumNumbers(a, b);
         System.out.println(summa);
 
-        printNumber();
+        printNumber(-36);
 
         int x = -5;
         boolean number = compareNumbers(x);
@@ -28,9 +28,8 @@ public class homeworkLesson2 {
 // метод должен напечатать в консоль, положительное ли число передали или отрицательное.
 // Замечание: ноль считаем положительным числом.
 
-    public static void printNumber(){
-        int numer = -36;
-        if (numer >= 0) {
+    public static void printNumber(int nomer){
+         if (nomer >= 0) {
             System.out.println("Положительное число");
         } else {
             System.out.println("Отрицательное число");
