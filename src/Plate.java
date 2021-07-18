@@ -1,4 +1,4 @@
-public class Plate {
+public class Plate{
    int food;
 
     public Plate(int food){

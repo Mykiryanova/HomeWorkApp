@@ -1,4 +1,4 @@
-public class HungryCat {
+public class HungryCat{
     private String name;
     private int appetite;
     private boolean hungry;

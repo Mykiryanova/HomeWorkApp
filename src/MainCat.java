@@ -1,4 +1,4 @@
-public class MainCat {
+public class MainCat{
     public static void main(String[] args){
         HungryCat firstCat = new HungryCat("Барсик",15);
         HungryCat secondCat = new HungryCat("Мурзик",8);
@@ -21,9 +21,11 @@ public class MainCat {
         secondCat.isCatWantsToEat(plate);
         plate.showInfo();
 
-
+        //Добавим в тарелку еду.
         plate.addFood(32);
 
+
+        //Посмотрим информацию о котах, записанных в массиве
         System.out.println();
         System.out.println("Информация о котиках в массиве");
         plate.showInfo();
